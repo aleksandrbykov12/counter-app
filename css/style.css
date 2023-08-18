@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Manrope;
+}
+
+.container {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.reset-btn {
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+
+button {
+    font-family: inherit;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    background: #4191FF;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+}
+
+.reset-btn {
+    background: #D45366;
+}
+
+.count {
+    width: 500px;
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
