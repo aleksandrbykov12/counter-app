@@ -3,11 +3,13 @@ html {
 }
 
 body {
+    width: 100%;
     font-family: Manrope;
 }
 
 .container {
     padding-top: 150px;
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 36px;
