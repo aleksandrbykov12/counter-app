@@ -10,17 +10,20 @@ body {
     padding-top: 150px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 36px;
     width: 700px;
     margin: 0 auto;
 }
 
 .reset-btn {
-    visibility: hidden;
+    background-color: gray;
+    cursor: default;
+    transition: all linear 0.2s;
 }
 
 .active {
-    visibility: visible;
+    background: #D45366;
+    cursor: pointer;
 }
 
 button {
@@ -36,10 +39,6 @@ button {
     font-weight: 700;
     line-height: normal;
     color: #fff;
-}
-
-.reset-btn {
-    background: #D45366;
 }
 
 .count {
