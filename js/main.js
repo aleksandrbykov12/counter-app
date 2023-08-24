@@ -4,13 +4,8 @@ const resetButton = document.getElementById('resetButton');
 
 let counter = 0;
 
-addButton.addEventListener('click', function() {
-    addCounter();
-});
-
-resetButton.addEventListener('click', function() {
-    resetCounter()
-})
+addButton.addEventListener('click', addCounter);
+resetButton.addEventListener('click', resetCounter);
 
 function addCounter() {
     counter += 1;
