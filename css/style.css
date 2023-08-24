@@ -1,0 +1,57 @@
+body {
+    font-family: Manrope;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.counter {
+    margin-top: 126px;
+    display: flex;
+    gap: 36px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter__value {
+    width: 500px;
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.counter__addButton,
+.counter__resetButton {
+    font-family: inherit;
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    background: #4191FF;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+}
+
+.counter__addButton:hover,
+.resetButton-active:hover {
+    opacity: 0.8;
+}
+
+.counter__resetButton {
+    cursor: default;
+    background-color: gray;
+    transition: all linear 0.2s;
+}
+
+.resetButton-active {
+    background-color: #D45366;
+    cursor: pointer;
+}
